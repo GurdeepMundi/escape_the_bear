@@ -1,7 +1,8 @@
 import logo from './forest_map.jpg';
 import './App.css';
 import player from './scared-guy.jpg'
-import Game from './Game.js' 
+import Game from './Game.js'
+import React from 'react';
 
 function App() {
   return (
