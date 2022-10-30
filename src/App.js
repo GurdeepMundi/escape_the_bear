@@ -1,12 +1,13 @@
 import logo from './forest_map.jpg';
 import './App.css';
+import player from './scared-guy.jpg'
 import Game from './Game.js' 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Game logo={logo}/>
+        <Game logo={logo} plater={player}/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
