@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.player-class {
+  height: 10vmin;
+  position:absolute;
+  top: 370px; /*it pushes away div element from top 10px down Remember with
+  browser window*/
+  left:800px;
+  right:10px;
+  bottom:20px; 
+}
 
 .App-header {
   background-color: #282c34;
@@ -21,13 +30,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
