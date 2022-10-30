@@ -10,11 +10,11 @@
 .player-class {
   height: 10vmin;
   position:absolute;
-  top: 370px; /*it pushes away div element from top 10px down Remember with
+  /* top: 250px; /*it pushes away div element from top 10px down Remember with
   browser window*/
-  left:800px;
+  /*left:500px;
   right:10px;
-  bottom:20px; 
+  bottom:20px;  */
 }
 
 .App-header {
