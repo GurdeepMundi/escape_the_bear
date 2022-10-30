@@ -28,7 +28,8 @@ const Game = (props) => {
     }
     function moveLeft() {
         setPLeft(playerLeft - 50);
-        setDistance(distance - 1);
+        alert("The bear caught you!");
+        setRange(0)
     }
     return (
         <div>
